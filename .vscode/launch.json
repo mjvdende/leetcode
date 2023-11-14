@@ -2,6 +2,14 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "node",
+      "request": "launch",
+      "name": "2236",
+      "program": "${workspaceFolder}/2236-root-equals-sum-of-children/solution.ts",
+      "preLaunchTask": "tsc: build - tsconfig.json",
+      "outFiles": ["${workspaceFolder}/out/**/*.js"]
+    },
+    {
       "type": "java",
       "name": "Main",
       "request": "launch",
@@ -14,19 +22,15 @@
       "name": "1480",
       "program": "${workspaceFolder}/1480-running-sum-of-1d-array/solution.ts",
       "preLaunchTask": "tsc: build - tsconfig.json",
-      "outFiles": [
-        "${workspaceFolder}/out/**/*.js"
-      ]
+      "outFiles": ["${workspaceFolder}/out/**/*.js"]
     },
     {
       "type": "node",
       "request": "launch",
-      "name": "2236",
-      "program": "${workspaceFolder}/2236-root-equals-sum-of-children/solution.ts",
+      "name": "1672",
+      "program": "${workspaceFolder}/1672-richest-customer-wealth/solution.ts",
       "preLaunchTask": "tsc: build - tsconfig.json",
-      "outFiles": [
-        "${workspaceFolder}/out/**/*.js"
-      ]
+      "outFiles": ["${workspaceFolder}/out/**/*.js"]
     }
   ]
 }
