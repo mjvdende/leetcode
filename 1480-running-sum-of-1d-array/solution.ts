@@ -1,4 +1,4 @@
-function runningSum(nums: number[]): number[] {
+export default function runningSum(nums: number[]): number[] {
     let i = 1
     let running = []
     const firstNumber = nums[0]
@@ -9,6 +9,3 @@ function runningSum(nums: number[]): number[] {
     }
     return running 
 }
-
-console.log(runningSum([1,2,3,4])) //[1,3,6,10]
-console.log(runningSum([1, 1, 1, 1])) //[1,2,3,4]
