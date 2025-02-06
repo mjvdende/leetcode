@@ -1,4 +1,4 @@
-public class Main {
+class Solution {
   public static void main(String[] args) {
     System.out.println("Hello world!");
     TreeNode root = new TreeNode(10);
